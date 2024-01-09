@@ -50,7 +50,7 @@ function App() {
               <h2 className="text-[20px] leading-[28px] font-[500]">
                 Transactions | This Month
               </h2>
-              <div className="bg-white rounded-[8px] p-3 pb-6">
+              <div className="bg-white rounded-[8px] p-3 pb-6 shadow-[0_2px_6px_0_#1A181E04]">
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center justify-between">
                     <div className="py-[10px] px-[16px] flex items-center gap-2 rounded border border-[#D9D9D985]">

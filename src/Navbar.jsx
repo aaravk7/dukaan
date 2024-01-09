@@ -5,7 +5,7 @@ import ChatImg from "./assets/Vector1.png";
 
 function Navbar() {
   return (
-    <div className="bg-white flex justify-between shadow-sm px-8 py-3 relative">
+    <div className="bg-white flex justify-between border-b border-[#D9D9D985] px-8 py-3 relative">
       <div className="flex items-center gap-4">
         <h3 className="text-[15px] leading-[22px] text-[#1A181E]">Payments</h3>
         <a className="text-[#4D4D4D] flex gap-1.5 text-[12px] leading-[16px] text-nowrap items-center">
