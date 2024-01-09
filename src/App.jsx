@@ -2,12 +2,12 @@ import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import ArrowDown from "./assets/ArrowDown2.svg";
 import Download from "./assets/Download.svg";
+import Left from "./assets/Left.svg";
+import Right from "./assets/Right.svg";
 import SearchIcon from "./assets/Search.svg";
 import Triangle from "./assets/Triangle.svg";
 import UpDown from "./assets/UpDown.svg";
 import IIcon from "./assets/iicon.svg";
-import Left from "./assets/left.svg";
-import Right from "./assets/right.svg";
 
 function App() {
   return (
