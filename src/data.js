@@ -1,15 +1,15 @@
-import Icon1 from "./assets/Vector-1.png";
-import Icon10 from "./assets/Vector-10.png";
-import Icon11 from "./assets/Vector-11.png";
-import Icon2 from "./assets/Vector-2.png";
-import Icon3 from "./assets/Vector-3.png";
-import Icon4 from "./assets/Vector-4.png";
-import Icon5 from "./assets/Vector-5.png";
-import Icon6 from "./assets/Vector-6.png";
-import Icon7 from "./assets/Vector-7.png";
-import Icon8 from "./assets/Vector-8.png";
-import Icon9 from "./assets/Vector-9.png";
-import Icon from "./assets/Vector.png";
+import Icon1 from "./assets/Navbar Icon-1.svg";
+import Icon10 from "./assets/Navbar Icon-10.svg";
+import Icon11 from "./assets/Navbar Icon-11.svg";
+import Icon2 from "./assets/Navbar Icon-2.svg";
+import Icon3 from "./assets/Navbar Icon-3.svg";
+import Icon4 from "./assets/Navbar Icon-4.svg";
+import Icon5 from "./assets/Navbar Icon-5.svg";
+import Icon6 from "./assets/Navbar Icon-6.svg";
+import Icon7 from "./assets/Navbar Icon-7.svg";
+import Icon8 from "./assets/Navbar Icon-8.svg";
+import Icon9 from "./assets/Navbar Icon-9.svg";
+import Icon from "./assets/Navbar Icon.svg";
 
 export const NAVITEMS = [
   { name: "Home", icon: Icon },

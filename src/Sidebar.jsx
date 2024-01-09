@@ -1,5 +1,5 @@
 import ArrowDown from "./assets/ArrowDown.svg";
-import LogoImg from "./assets/logo.svg";
+import LogoImg from "./assets/Image.png";
 import WalletImg from "./assets/Wallet.svg";
 import { NAVITEMS } from "./data";
 
@@ -10,13 +10,11 @@ function Sidebar() {
         <div className="flex items-center justify-between px-2">
           <div className="flex gap-3 items-center">
             <img
-              className="h-[39px] w-[39px] rounded-[4px] object-cover"
-              height={39}
-              width={39}
+              className="object-cover w-[40px] rounded "
               src={LogoImg}
               alt="logo"
             />
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col">
               <h3 className="text-[15px]">Nishyan</h3>
               <a className="text-[13px] underline opacity-80">Visit store</a>
             </div>
@@ -25,16 +23,21 @@ function Sidebar() {
         </div>
         <div className="flex flex-col gap-1">
           {NAVITEMS.map((item) => (
-            <div key={item.name} className="px-4 py-2 flex gap-3 opacity-80">
-              <img src={item.icon} />
-              <h4 className="leading-[20px] text-[14px] font-[500]">
+            <div
+              key={item.name}
+              className={`px-4 py-2 flex gap-3 rounded ${
+                item.name === "Payments" && "bg-[#ffffff10]"
+              }`}
+            >
+              <img src={item.icon} className="opacity-80" />
+              <h4 className="leading-[20px] text-[14px] font-[500] opacity-80">
                 {item.name}
               </h4>
             </div>
           ))}
         </div>
       </div>
-      <div className="justify-self-end bg-[#353C53] py-1.5 px-3 rounded flex gap-2.5">
+      <div className="justify-self-end bg-[#353C53] py-1.5 px-3 rounded flex items-center gap-2.5">
         <span className="h-9 w-9 p-1.5 rounded bg-[#ffffff10] grid place-content-center">
           <img src={WalletImg} />
         </span>
